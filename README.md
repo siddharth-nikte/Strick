@@ -15,6 +15,9 @@ Text features are converted to vectors by implementing TF-IDF and passed to Line
 ### Data Extraction and Recommendation System
 Website meta-data is extracted using BeautifulSoup and Cosine Similarity is used to find similarity score.
 
+### Website Scraper
+Website scraper is a python script to scrape and images and pdfs from websites. Features: Error handling, automated retries and parallelization.
+
 ## Installation
 This project requires Python and the following Python libraries installed:\
 Pandas\
