@@ -18,6 +18,9 @@ Website meta-data is extracted using BeautifulSoup and Cosine Similarity is used
 ### Website Scraper
 Website scraper is a python script to scrape and images and pdfs from websites. Features: Error handling, automated retries and parallelization.
 
+### User Interface
+ReactJS with MaterialUI acts as a frontend while NodeJS, connects the UI with python model.
+
 ## Installation
 This project requires Python and the following Python libraries installed:\
 Pandas\
@@ -27,3 +30,14 @@ BeautifulSoup\
 urllib.parse
 
 You will also need to have software installed to run and execute a Jupyter Notebook.
+
+To run the app:  
+1. Install ReactJS dependencies  
+cd app/client  
+npm i  
+npm run dev  
+
+2. Install NodeJS dependencies  
+cd app/server  
+npm i  
+node index
