@@ -2,7 +2,10 @@
 
 Content based recommendation system and website classifier.
 
-It uses text data and URL scraped from website meta-tags to train a classification model and generate a similarity score of other websites within the dataset.
+It uses text data and URL scraped from website meta-tags to train a classification model and generate a similarity score of other websites within the dataset.  
+
+## Demo  
+https://github.com/user-attachments/assets/0cace2d7-e468-4114-8722-7d42f7054510
 
 ## Architecture
 ### Dataset and Data Cleaning
